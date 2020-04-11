@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Layout from '../component/layout'
 import '../styles/style.css'
+// import DB from '../db/db.js'
+import Content from '../component/content'
 
 const Home = () => (
   <div className="container">
@@ -19,9 +21,11 @@ const Home = () => (
 
 
 
-      <div className='black-block'></div>
+      {/* <div className='black-block'></div> */}
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to 
+        <Content/> 
+        <a href="https://nextjs.org">Next.js!</a>
       </h1>
 
       </Layout>
