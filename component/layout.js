@@ -4,9 +4,9 @@ import Footer from "./footer";
 const Layout = (props)=>(
     <section>
         <Nav/>
-        <section> 
+        <main className="content"> 
            {props.children}
-        </section>
+        </main>
         <Footer/>
     </section>
 )

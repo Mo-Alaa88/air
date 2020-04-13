@@ -1,5 +1,6 @@
 import Layout from "../component/layout"
 import Head from "next/head"
+import '../styles/styleAR.css'
 
 const Sharp =()=>(
     <div>
@@ -8,7 +9,7 @@ const Sharp =()=>(
         <meta name="keywords" content="HTML,CSS,XML,JavaScript"/>
         <meta name="author" content="John Doe"/>
 
-        <title>Home</title>
+        <title>Sharp</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         </Head>
